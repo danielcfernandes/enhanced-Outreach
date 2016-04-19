@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Experience Syracuse!</title>
+<link rel="stylesheet" href="css/style.css"/>
+     <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <div class="demo__info">
+    All video content belongs to respective owners
+  </div>
+
+  <div class="parallax">
+    <div id="group1" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+           <img src="img/syracuse-university-campus-blur.png"  height="110%" width ="100%" />
+      </div>
+         <div class="parallax__layer parallax__layer--fore">
+         <div class="title" style="text-align:left ! important; left:33% ! important">
+                  <div style="font-family: 'Bree Serif'; color: white; font-size: 50px; font-weight: bold;">Experience
+                  </div>
+                  </div>
+              <div class="title" >
+                   <div style="font-family: 'Satisfy'; color: white; font-size: 50px; font-weight: bold">Syracuse
+                  </div>
+                  </div>
+              <div class="title" style="text-align:right ! important; left:65% ! important" >
+                  <div style="font-family: 'Bree Serif'; color: white; font-size: 50px; font-weight: bold;">in VR
+                      <img src="img/goggle.png" height="70px" width="auto" />
+                  </div>
+ 
+              </div>
+      </div>
+    </div>
+    <div id="group2" class="parallax__group">
+         <div class="parallax__layer parallax__layer--back">
+           <img src="img/cardboard-blur.png"  height="100%" width ="100%" />
+      </div>
+       <div class="parallax__layer parallax__layer--fore">
+          <div class="title" style="font-family: 'Wellfleet'; color: white; font-size: 20px;">Scan the QR code with your phone. Use Google Goggles on your
+              Android phone or download QR scanner on your iPhone
+          </div>
+       </div>
+     
+    </div>
+    <div id="group3" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+        <div class="title" style="font-family: 'Satisfy'; color: white; font-size: 50px; font-weight: bold; top:30%">Syracuse Campus in 360</div>
+           <div class="title" style="bottom:30%"><img src="img/qrcampus.jpg" height="150px" width="auto" /></div>
+       </div>
+      <div class="parallax__layer parallax__layer--base">
+         <img src="img/carrier.png"  height="110%" width ="100%" />
+      </div>
+     </div>
+    <div id="group4" class="parallax__group">
+        <div class="parallax__layer parallax__layer--fore">
+           <div class="title" style="font-family: 'Arvo'; color: white; font-size: 35px; font-weight: bold">With a capacity of 35,000 the Carrier
+               dome is the homeground of SU Basketball and Football
+           </div>
+      </div>
+      <div class="parallax__layer parallax__layer--deep">
+        <img src="img/carrierdomeinterior-rad.png"  height="110%" width ="100%" />
+      </div>
+    </div>
+    <div id="group5" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+        <div class="title" style="font-family: Oswald; color: white; font-size: 35px; top:40%">Experience the thrill of the game</div>
+        <div class="title" style="top:65%"> <img src="img/qrcampus.jpg" height="150px" width="auto" /></div>
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+      <img src="img/footballjersey-blur.png"  height="110%" width ="100%" />
+      </div>
+
+    </div>
+    <div id="group6" class="parallax__group">
+      <div class="parallax__layer parallax__layer--back">
+        <img src="img/campus2.png"  height="110%" width ="100%" />
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title" style="font-family: Oswald; color: white; font-size: 35px">A beautiful campus with 
+            extensive facilities SU has the right mix of leisure, fun and study!
+        </div>
+      </div>
+    </div>
+    <div id="group7" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+         <img src="img/soccer.png"  height="110%" width ="100%" />
+      </div>
+    <div class="parallax__layer parallax__layer--fore">
+        <div class="title" style="font-family: Wellfleet; color: white; font-size: 35px; top:40%">Soccer fans, watch this game from the sidelines!</div>
+        <div class="title" style="top:65%"> <img src="img/qrcampus.jpg" height="150px" width="auto" /></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var debugInput = document.querySelector("input");
+    function updateDebugState() {
+        document.body.classList.toggle('debug-on', debugInput.checked);
+    }
+    debugInput.addEventListener("click", updateDebugState);
+    updateDebugState();
+  </script>
+
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-10812217-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
